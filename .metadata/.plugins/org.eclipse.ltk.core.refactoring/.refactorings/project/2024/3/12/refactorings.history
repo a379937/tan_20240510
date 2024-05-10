@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 6 elements from プロジェクト &apos;project&apos;&#x0D;&#x0A;- 元のプロジェクト: &apos;project&apos;&#x0D;&#x0A;- オリジナル要素:&#x0D;&#x0A;     project/src/p0308&#x0D;&#x0A;     project/src/p0311&#x0D;&#x0A;     project/src/p0312&#x0D;&#x0A;     project/src/p0313&#x0D;&#x0A;     project/src/p0314&#x0D;&#x0A;     project/src/p0318" description="要素の削除" element1="/src&lt;p0318" element2="/src&lt;p0314" element3="/src&lt;p0313" element4="/src&lt;p0312" element5="/src&lt;p0311" element6="/src&lt;p0308" elements="6" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1711080745896" subPackages="false" version="1.0"/>
+</session>

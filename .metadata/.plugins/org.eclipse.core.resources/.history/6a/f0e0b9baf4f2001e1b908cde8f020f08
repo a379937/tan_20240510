@@ -1,0 +1,35 @@
+
+<html>
+	<head >
+	     <script>
+
+            var pics_src = new Array();
+            pics_src[0]=("img001.jpg");
+            pics_src[1]=("img002.jpg");
+            pics_src[2]=("img003.jpg");
+            var num = 0;
+ 
+            function slideshow(){
+                if (num == 2) {
+                    num = 0;
+                }
+                else {
+                    num ++;
+                }
+                document.getElementById("mypic").src=pics_src[num];
+                setTimeout("slideshow()",1000);
+            }
+
+
+window.addEventListener('DOMContentLoaded', function() {
+  console.log("メロン");
+})
+
+            
+         </script>
+	</head>
+    <body >
+        <img id="mypic"  onload="slideshow()"  src="img001.jpg" width="400" height="300">
+
+    </body>
+</html>
