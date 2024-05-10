@@ -7,7 +7,7 @@ public class Sample_1 {
 		ScIf s = new ScIf();
 		s.print("enter a num");
 		int i = s.ifHasNext();
-		System.out.println(i);
+		System.out.println(i+1);
 		
 		
 		
