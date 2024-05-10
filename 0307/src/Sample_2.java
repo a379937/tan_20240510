@@ -7,7 +7,7 @@ public class Sample_2 {
 		while(true) {
 			
 		Scif a = new Scif();
-		a.print("enter");
+		a.print("enter ");
 		int i = a.ifHasNext();
 
 		System.out.println("You enter"+i);
